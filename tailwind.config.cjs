@@ -8,6 +8,16 @@ module.exports = {
     "@tailwindcss/typography",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        Blue: "#1890FF",
+        BlueDark: "#232569",
+        Green: "#53DBBB",
+        Grey: "#EBEDF0",
+        OrangeBG: "#E26C59",
+        Purple: "#4C1369",
+        PurpleBG: "#A3169F",
+      },
+    },
   },
 };

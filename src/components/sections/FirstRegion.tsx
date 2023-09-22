@@ -13,19 +13,19 @@ export const FirstRegion = () => {
       landmarkRole="region"
     >
       <Landmark.Heading
-        className="my-4 text-3xl font-bold md:text-right md:text-5xl"
+        className="my-4  text-4xl font-bold md:ml-auto md:w-4/6 md:text-right md:text-5xl"
         id={id}
       >
-        Réservez votre place pour une expérience transformative sur
+        Réservez vos places pour la conférence Inolib sur les challenges de
         l’accessibilité numérique
       </Landmark.Heading>
 
-      <div className="my-8 flex flex-col items-center md:my-12">
+      <div className="my-8 flex flex-col items-center gap-8 md:my-12 md:flex-row lg:ml-auto lg:w-3/4">
         <img alt="" src="/logo_inolib.png" />
-        <p className=" my-4 text-2xl">
-          Inolib, l’agence digitale pionnière en responsabilité et innovation
-          propose un contenu inédit à l’occasion de la 27ème Semaine Européenne
-          pour l’Emploi des Personnes Handicapées (SEEPH)
+        <img alt="" className="hidden md:block" src="/logo_seeph2023.png" />
+        <p className="my-4 text-2xl md:text-right">
+          Un contenu inédit à l’occasion de la 27ème Semaine Européenne pour
+          l’Emploi des Personnes Handicapées (SEEPH)
         </p>
       </div>
 
